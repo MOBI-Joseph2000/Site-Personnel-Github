@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 9 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_side{
+    position: relative;
+    background: #11101d;
+    padding: 50px;
+}
+.container .right_side{
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+    background: white;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.right_side .right_side_one{
+    position: relative;
+    background: white;
+}
+.right_side .right_side_two{
+    position: relative;
+    background: white;text-align: end;
+}
+.profilText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profilText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profilText h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+.profilText h2 span{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Redresser';
+    font-weight: 200;
+}
+.title{
+    color: white;
+    margin-top: 10px;
+}
+.title h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.title p{
+    margin-left: 20px;
+    margin-block-end: 2px;
+}
+.title span{
+    margin-bottom: 20px;
+}
+.title_habilete{
+    color: black;
+    margin-top: 10px;
+}
+.title_habilete h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.title_habilete p{
+    margin-left: 20px;
+    margin-block-end: 2px;
+}
+.title_habilete span{
+    margin-bottom: 20px;
+    font-family: 'Merriweather';
+}
+.etude_style{
+    margin-top: 30px;
+}
+.langues{
+    margin-top: 30px;
+}
+.title_habilete p{
+    width: 70%;
+}
+.tyle_paragraphe{
+    margin-left: 40px;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.pourcent{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: white;
+    display: block;
+    margin-top: 15px;
+}
+.pourcent .pourcent_interne{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(246, 17, 32);
+}
+.profil_paragraphe{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Merriweather';
+}
+.pourcent_habilete{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: rgb(230, 230, 246);
+    display: block;
+    margin-top: 15px;
+}
+.pourcent_habilete .pourcent_interne_habilete{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(2, 97, 75);
+}
+.profil_paragraphe_habilete{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Merriweather';
+}
+.centre_interet ul{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+.centre_interet ul dl{
+    color: black;
+    font-weight: 400;
+    list-style: none;
+    margin: 10px 0;
+    font-family: 'Merriweather';
+}
+.centre_interet ul dl i{
+    color: #11101d;
+    font-size: 20px;
+}
+.btn-clic{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+    font-family: 'Merriweather';
+}
+.btn-clic:hover,
+.btn-clic:active{
+    color: white;
+    background-color: red;
+}
+@media (max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container .right_side {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container .right_side .right_side_one .centre_interet ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

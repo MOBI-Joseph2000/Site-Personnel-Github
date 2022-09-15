@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-clic{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+    font-family: 'Merriweather';
+}
+.btn-clic:hover,
+.btn-clic:active{
+    color: white;
+    background-color: red;
+}
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form-element{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-element h1{
+    font-size: 30px;
+    font-family: 'Redressed';
+    font-weight: bold;
+}
+form .corps_form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps_form .text_title{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .corps_form .left .text_title input{
+    margin-top: 3px;
+    padding: 10px 5px 5px 40px; 
+    border: 1px solid #11101d;
+    outline-color: #11101d;
+    border-radius: 5px
+}

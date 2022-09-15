@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+*{
+    text-decoration: none;
+}
+.case-navbar{
+    background-color: rgba(0, 0, 0, 0.50);
+    font-family: 'Merriweather';
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.case-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.case-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.redressed{
+    font-family: 'Redressed';
+}
+.redressed_title_one{
+    font-family: 'Redressed';
+    font-size: 20;
+    font-weight: bolder;
+}
+.merriweather{
+    font-family: 'Merriweather';
+}
+.merriweather_body{
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    color: lightseagreen;
+}
+.merriweather_texte{
+    font-family: 'Merriweather';
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../images/fond_accueil.jpg') center center fixed no-repeat;
+    background-size:cover;
+    height: 650px;
+    text-decoration: none;
+}
+.banner .banner-desc{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.banner .banner-desc-desc{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.banner-explore{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../images/fond_accueil.jpg') center center fixed no-repeat;
+    background-size:cover;
+    top: 800px;
+    height: 1000px;
+    text-decoration: none;
+}
+.banner-explore .banner-desc{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.banner-explore .banner-desc-desc{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.banner-explore-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../images/fond_accueil.jpg') center center fixed no-repeat;
+    background-size:cover;
+    top: 800px;
+    height: 450px;
+    text-decoration: none;
+}
+.banner-explore-page .banner-desc{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.banner-explore-page .banner-desc-desc{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color: var(--bs-teal);
+}
+.btn-out{
+    background-color: var(--bs-teal);
+}
+.btn-clic{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+.btn-clic:hover,
+.btn-clic:active{
+    color: white;
+    background-color: red;
+}
+.card-img-top-back {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-img-top {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 1px;
+}
+.card_text_style{
+    font-family: 'Redressed';
+    font-size: 10;
+    text-align: center;
+}
+.card_style{
+    width: 200px;
+}
+.card_background{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../images/fond_accueil.jpg') center center fixed no-repeat;
+}
+.style_lg{
+    width: 600px;
+}
+.design-footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.disponible-dis{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p-form{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Tahoma;
+}
+.plateform{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.plateform li{
+    margin: 0 5px;
+}
+.plateform a{
+    text-decoration: none;
+    color: black;
+}
+.plateform a i{
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
+.plateform a:hover i{
+    color: var(--bs-teal);
+}
+.footer-bottom{
+    width: 100vw;
+    padding: 2px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.footer-bottom p{
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.style_card{
+    width: 18rem;
+    margin-top: 5px;
+}
+.style_galerie{
+    font-size: 30px; 
+    font-weight: bold; 
+    font-family: Redressed; 
+    margin-top: 0;
+}
+.style_galerie_text{
+    font-family: 'Merriweather'; 
+    text-align: justify; 
+    margin-top: 50px;
+}
+.style_icon{
+    color: black;
+    margin: 0 5px;
+}
+.style_icon_text{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Merriweather';
+}
+.profilText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profilText .imgBx{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.profilText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profilText h6{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-weight: bolder;
+}
+.profilText h6 span{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Redresser';
+    font-weight: 200;
+}
+.profil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profil .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.profil .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profil h6{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-weight: bolder;
+}
+.profil h6 span{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Redresser';
+    font-weight: 200;
+}
+.contact_style{
+    font-family: 'Merriweather';
+    font-size: 10px;
+    text-align: center;
+}
+.title_etude{
+    margin-top: 15px;
+}
+.tyle_paragraphe{
+    margin-left: 40px;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.paragraphe_style{
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.pourcent{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: lightskyblue;
+    display: block;
+    margin-top: 15px;
+}
+.pourcent .pourcent_interne{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(246, 17, 32);
+}
+.bg_taille{
+    height: 65px;
+    width: 200px;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    text-decoration-color: white;
+}
+.conteneur{
+    padding: 0.01em 16px;
+    font-size: 16px;
+}
+.bouton{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.affichage{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.boite{
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.boite-contenu{
+    margin: auto;
+    background-color: #fff;
+    width: 600px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.20),0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.animation-haut{
+    position: relative;
+    animation: animerHaut 0.4s;
+}
+@keyframes animerHaut {
+    from{top: -300px;opacity: 0;}
+    to{top: 0px;opacity: 1;}
+}
+.bleu{
+    color: #fff;
+    background-color: #2981bc;
+}
